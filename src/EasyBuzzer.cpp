@@ -11,7 +11,7 @@ Github:		https://github.com/evert-arias/EasyBuzzer
 #include "EasyBuzzer.h"
 
 /* Class constructor */
-EasyBuzzerClass::EasyBuzzerClass(unsigned int pin = DEFAULT_PIN)
+EasyBuzzerClass::EasyBuzzerClass(unsigned int pin)
 {
 #if defined ESP32
 	ledcSetup(mChannel, mFreq, mResolution);
