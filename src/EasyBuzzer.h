@@ -17,7 +17,7 @@ Github:		https://github.com/evert-arias/EasyBuzzer
 #include "WProgram.h"
 #endif
 
-#include "Config.h"
+#include "EasyBuzzerConfig.h"
 
 #ifdef ESP8266
 #define min _min

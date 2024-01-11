@@ -9,8 +9,8 @@ Copyright (c) 2017 Evert Arias
 
 #pragma once
 
-#ifndef _Config_h
-#define _Config_h
+#ifndef _EasyBuzzer_Config_h
+#define _EasyBuzzer_Config_h
 
 #define DEFAULT_PIN			4		// Default pin number where the buzzer is connected.	
 #define DEFAULT_FREQ		1000    // Default frequency.
