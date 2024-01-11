@@ -31,7 +31,7 @@ Github:		https://github.com/evert-arias/EasyBuzzer
 class EasyBuzzerClass
 {
   public:
-	EasyBuzzerClass();
+	EasyBuzzerClass(unsigned int pin = DEFAULT_PIN);
 	~EasyBuzzerClass();
 	/* Beep continuously. */
 	void beep(unsigned int frequency);
@@ -62,7 +62,7 @@ class EasyBuzzerClass
 
   private:
 	bool isArduino = true;
-	unsigned int mPin = DEFAULT_PIN;
+	unsigned int mPin;
 	unsigned int mFreq = DEFAULT_FREQ;
 	unsigned int mChannel = DEFAULT_CHANNEL;
 	unsigned int mResolution = DEFAULT_RESOLUTION;
@@ -76,6 +76,6 @@ class EasyBuzzerClass
 	void (*mFinishedCallbackFunction)();
 };
 
-extern EasyBuzzerClass EasyBuzzer;
+// extern EasyBuzzerClass EasyBuzzer;
 
 #endif
