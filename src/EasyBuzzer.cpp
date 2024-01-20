@@ -157,4 +157,4 @@ void EasyBuzzerClass::update()
 #endif
 }
 
-EasyBuzzerClass EasyBuzzer;
+EasyBuzzerClass buzzer;
