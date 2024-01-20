@@ -76,6 +76,6 @@ class EasyBuzzerClass
 	void (*mFinishedCallbackFunction)();
 };
 
-// extern EasyBuzzerClass EasyBuzzer;
+extern EasyBuzzerClass EasyBuzzer;
 
 #endif
