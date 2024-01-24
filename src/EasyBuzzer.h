@@ -31,7 +31,7 @@ Github:		https://github.com/evert-arias/EasyBuzzer
 class EasyBuzzerClass
 {
   public:
-	EasyBuzzerClass(unsigned int pin = DEFAULT_PIN);
+	EasyBuzzerClass(unsigned int pin = BUZZER_PIN);
 	~EasyBuzzerClass();
 	/* Beep continuously. */
 	void beep(unsigned int frequency);

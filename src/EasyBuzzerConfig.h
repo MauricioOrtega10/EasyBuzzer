@@ -12,9 +12,9 @@ Copyright (c) 2017 Evert Arias
 #ifndef _EasyBuzzer_Config_h
 #define _EasyBuzzer_Config_h
 
-#define DEFAULT_PIN			4		// Default pin number where the buzzer is connected.	
+#define BUZZER_PIN			26		// Default pin number where the buzzer is connected.	
 #define DEFAULT_FREQ		1000    // Default frequency.
-#define DEFAULT_CHANNEL		0		// Default PWM channel.
+#define DEFAULT_CHANNEL		1		// Default PWM channel.
 #define DEFAULT_RESOLUTION	8		// Default resolution.
 #define MINIMUM_INTERVAL    20      // Minimum interval allowed in milliseconds(ms).
 
